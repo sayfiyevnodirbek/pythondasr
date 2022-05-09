@@ -18,3 +18,15 @@ if son1>son2:
 elif son1==son2:
     print(f"Birinchi {son1} soni ikkinchi {son2} soniga teng")
 else:print(f"Ikkinchi {son2} soni birinchi {son1} sonidan katta")
+mahsulotlar= ["fudbolka","mayka","kepka","tapichka","sumka","ochki","naski","botinka","rement","ro`mol"]
+savat=[]
+for n in range(5):
+    tovar=input(f"{n+1}-mahsulot nomini kiriting: ")
+    savat.append(tovar.lower())
+for mahsulot in savat:
+    if mahsulot in mahsulotlar:
+        print(f"Ushbu {mahsulot} tovari do`konimizda  mavjud")
+    else:
+        print(f"Ushbu {mahsulot} tovari do`konimizda  mavjud emas")
+
+
