@@ -29,4 +29,7 @@ for mahsulot in savat:
     else:
         print(f"Ushbu {mahsulot} tovari do`konimizda  mavjud emas")
 
+mahsulotlar= ["fudbolka","mayka","kepka","tapichka","sumka","ochki","naski","botinka","rement","ro`mol"]
+savat=[]
+
 
