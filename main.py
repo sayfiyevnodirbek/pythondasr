@@ -112,13 +112,19 @@
 #         print(mahsulot)
 # else:
 #     print("Siz so'ragan barcha mahsulotlar do'konimizda bor")
-users = ['alisher1983','aziza','yasina', 'umar']
+# users = ['alisher1983','aziza','yasina', 'umar']
+#
+# login = input("Yangi login tanlang:")
+#
+# if login.lower() in users:
+#     print(login)
+#     print('Login band, yangi login tanalang!')
+#
+# else:
+#     print("Xush kelibsiz!")
+car={'model':"Ferrary",
+     'rang':"qizil",
+     'Tezlik':"500"}
+print(car['model'])
+print(f"Modeli {car['model']} rangi {car['rang']} Tezligi {car.get('Tezlik')}")
 
-login = input("Yangi login tanlang:")
-
-if login.lower() in users:
-    print(login)
-    print('Login band, yangi login tanalang!')
-
-else:
-    print("Xush kelibsiz!")
